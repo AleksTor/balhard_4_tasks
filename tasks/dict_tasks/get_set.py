@@ -11,7 +11,9 @@ from typing import Any
 
 def get_or_set(collection: dict, key: Any) -> Any:
     # TODO вставить код сюда
-    result = None
+    # result = collection.get(key, '3')
+    # result = collection.values()
+    result = collection.setdefault(key, 3)
     return result
 
 
