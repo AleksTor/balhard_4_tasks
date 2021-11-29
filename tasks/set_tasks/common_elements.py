@@ -8,10 +8,7 @@
 
 def common_elements(list_1: list, list_2) -> set:
     # TODO вставить код сюда
-    # result = set(list_1) | set(list_2)
-    number1 = set(list_1)
-    number2 = set(list_2)
-    result = number1.union(number2)
+    result = set(list_1).union(set(list_2))
     print(result)
     return result
 
